@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmicroFrontend2=self.webpackChunkmicroFrontend2||[]).push([[80],{80:(e,n,t)=>{t.r(n),t.d(n,{default:()=>r});var c=t(737);const r=({onClick:e})=>c.createElement("button",{onClick:e},"decrement")}}]);
