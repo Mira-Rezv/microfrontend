@@ -1,0 +1,9 @@
+{
+	"compilerOptions": {
+	  "sourceMap": true,
+	  "strict": true,
+	  "jsx": "react"
+	},
+	"include": ["src/**/*", "../shell/src/microFrontend2.d.ts"]
+  }
+  

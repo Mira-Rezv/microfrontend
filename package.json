@@ -1,0 +1,13 @@
+{
+    "name": "mf-ts-react",
+    "scripts": {
+        "install": "concurrently 'cd ./shell && npm install' 'cd ./microFrontend1 && npm install' 'cd ./microFrontend2 && npm install'",
+        "start": "concurrently 'cd ./shell && npm start' 'cd ./microFrontend1 && npm start' 'cd ./microFrontend2 && npm start'",
+        "build": "concurrently 'cd ./shell && npm run build' 'cd ./microFrontend1 && npm run build' 'cd ./microFrontend2 && npm run build'",
+        "serve": "concurrently 'cd ./shell && npm run serve' 'cd ./microFrontend1 && npm run serve' 'cd ./microFrontend2 && npm run serve'",
+        "clean": "concurrently 'cd ./shell && npm run clean' 'cd ./microFrontend1 && npm run clean' 'cd ./microFrontend2 && npm run clean'"
+    },
+    "devDependencies": {
+        "concurrently": "7.2.1"
+    }
+}
